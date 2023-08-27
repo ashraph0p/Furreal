@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% block head %}
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        {% block styles %}
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+              rel="stylesheet"
+            />
+            <!-- Bootstrap CSS -->
+         <link crossorigin="anonymous" href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+         <link href="https://cdn.jsdelivr.xyz/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+         <link href="static/styles.css" rel="stylesheet">
+        {% endblock %}
+
+        {% endblock %}
+        <title>{% block title %}Your page title{% endblock %}</title>
+    </head>
+    <body>
+        <!-- Your page content -->
+        {% block content %}{% endblock %}
+
+        {% block scripts %}
+        <!-- Optional JavaScript -->
+        <script crossorigin="anonymous"
+                src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script crossorigin="anonymous"
+                src="https://cdn.jsdelivr.xyz/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+        {% endblock %}
+    </body>
+</html>
