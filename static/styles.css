@@ -2,20 +2,21 @@ body {
     background-color: black;
 }
 img {
-    margin-top: 1rem;
     border: 5px solid white;
-    width: 70%;
-    height: 90%;
+    width: 50%;
+    height: 80%;
 
 
 }
 
 h1, p {
-    font-family: 'Libre Baskerville', serif;
     color: white;
     text-align: center;
     text-transform: uppercase;
 }
 h1 {
-    font-weight: 600;
+    font-family: 'Leckerli One', cursive;
+}
+p {
+    font-family: 'Libre Baskerville', serif;
 }
