@@ -13,13 +13,13 @@ body {
     background-color: black;
 }
 img {
-    margin-top: 5;
+    margin-top: 1rem;
     border: 5px solid white;
-    width: 30%;
+    width: 52%;
+    height: auto;
 
 }
-#meme {
-    margin-left: 25%;
-    width: 50%;
-    margin-top: 50px;
+.lead {
+    font-size: 17px;
+    padding: 5%;
 }
