@@ -5,15 +5,16 @@ Furreal
 {% block content %}
 <!--<p>{{ cat_fact }}</p>-->
 <body class="d-flex h-100 text-center justify-content-center align-items-center">
-      <div class="container d-flex justify-content-center mt-4 p-2">
-      <main>
-        <img src='{{ cat_img }}' class="cat_img" alt="Funny cat_image">
-        <h1 class="h1 mt-4">furreal:</h1>
-        <p class="lead">{{ cat_fact }}</p>
-      </main>
-  </div>
+    <main>
+        <div class="container d-flex justify-content-center mt-4 p-2">
+            <img src='{{ cat_img }}' class="cat_img" alt="Funny cat_image">
+        </div>
+        <div class="container p-4">
+            <h1 class="mt-4 fs-4">furreal:</h1>
+            <p class="px-2 py-2">{{ cat_fact }}</p>
+        </div>
+    </main>
 </body>
-
 
 
 {% endblock %}
